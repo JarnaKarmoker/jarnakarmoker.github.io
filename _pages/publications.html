@@ -1,36 +1,26 @@
 ---
-layout: archive
-title: "Publications"
 permalink: /publications/
+title: "Publications"
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+## Peer-Reviewed Publications
 
-{% include base_path %}
+1. **Karmoker, Jarna**, Md Saiful Islam, Md Liton Rana, Md Ashek Ullah, Fahim Haque Neloy, Nahian Muniath Oishy, Pritom Kumar Pramanik, Mahbubul Pratik Siddique, Sukumar Saha, and Md Tanvir Rahman.  
+   *Molecular detection and multidrug resistance of Shigella spp. isolated from wild waterfowl and migratory birds in Bangladesh.*  
+   **Veterinary Medicine International** (2023)
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+2. Ballah, Fatimah Muhammad, Md Saiful Islam, Md Liton Rana, Farhana Binte Ferdous, Rokeya Ahmed, Pritom Kumar Pramanik, **Jarna Karmoker** *et al.*  
+   *Phenotypic and Genotypic Detection of Biofilm-Forming Staphylococcus aureus from Different Food Sources in Bangladesh.*  
+   **Biology** 11, no. 7 (2022): 949
 
+## Poster/Oral Presentations 
 
+- **Create@State 2026, Arkansas State University**  
+  *CAP1 (Cyclase-Associated Protein 1) Mediates The Cyclic AMP Regulations of Adhesion and Proliferation of Schwann Cells in the Peripheral Nervous System*
 
+- **Create@State 2025, Arkansas State University**  
+  *Investigating CAP1 (Cyclase-Associated Protein 1) Functions in Schwann Cells and Their Regulation by Cyclic AMP*
+
+- **5th WVPA Asia Meeting 2022**  
+  Oral presentation: *Molecular detection of antibiotic resistant Shigella spp. from faecal samples of cattle, pet animals and migratory birds travelling to Bangladesh*
