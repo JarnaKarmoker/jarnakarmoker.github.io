@@ -1,4 +1,3 @@
-
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site.
@@ -18,7 +17,7 @@ repository: "JarnaKarmoker/jarnakormoker.github.io"
 author:
   avatar: "profile.png"
   name: "Jarna Karmoker"
-  pronouns: "She/Her"
+  pronouns: ""
   bio: "Graduate researcher in cell and molecular biology studying CAP1, cAMP signaling, and Schwann cell function in peripheral nerve repair."
   location: "Jonesboro, Arkansas, USA"
   employer: "Arkansas State University"
