@@ -9,9 +9,9 @@ title: "Jarna Karmoker"
 title_separator: "-"
 name: "Jarna Karmoker"
 description: "Academic website of Jarna Karmoker | Cell and molecular biology researcher"
-url: "https://jarnakormoker.github.io"
+url: "https://jarnakarmoker.github.io"
 baseurl: ""
-repository: "JarnaKarmoker/jarnakormoker.github.io"
+repository: "JarnaKarmoker/jarnakarmoker.github.io"
 
 # Site Author
 author:
