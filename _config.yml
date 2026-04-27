@@ -6,25 +6,20 @@
 locale: "en-US"
 site_theme: "default"
 title: "Jarna Karmoker"
-title_separator: "-"
 name: "Jarna Karmoker"
 description: "Academic website of Jarna Karmoker | Cell and molecular biology researcher"
 url: "https://jarnakarmoker.github.io"
-baseurl: ""
 repository: "JarnaKarmoker/jarnakarmoker.github.io"
 
 # Site Author
 author:
   avatar: "profile.png"
   name: "Jarna Karmoker"
-  bio: "Graduate researcher in cell and molecular biology studying CAP1, cAMP signaling, and Schwann cell function in peripheral nerve repair."
-  location: "Jonesboro, Arkansas, USA"
-  employer: "Arkansas State University"
-  uri: ""
-  email: "jarnak96@gmail.com"
-  googlescholar: ""
-  orcid: ""
-  github: "JarnaKarmoker"
+bio: "Graduate researcher in cell and molecular biology studying CAP1, cAMP signaling, and Schwann cell function in peripheral nerve repair."
+location: "Jonesboro, Arkansas, USA"
+employer: "Arkansas State University"
+email: "jarnak96@gmail.com"
+github: "JarnaKarmoker"
 
   # Academic websites
   academia         : # URL
